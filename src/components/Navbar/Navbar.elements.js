@@ -1,11 +1,11 @@
 import styled from "styled-components";
-import { FaCentercode, FaMagento } from "react-icons/fa";
+import { GiLotus } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import { Container } from "../../globalStyles";
 
 export const Nav = styled.nav`
-  background: #101522;
-  height: 80px;
+  background: #000000;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +18,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 70px;
   ${Container}
 `;
 
@@ -32,7 +32,7 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `;
 
-export const NavIcon = styled(FaMagento)`
+export const NavIcon = styled(GiLotus)`
   margin-right: 0.5rem;
 `;
 
@@ -70,11 +70,11 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavItem = styled.li`
-  height: 80px;
+  height: 70px;
   border-bottom: 2px solid transparent;
 
   &:hover {
-    border-bottom: 2px solid #4bd9f7;
+    border-bottom: 2px solid #F9A826;
   }
 
   @media screen and (max-width: 960px) {
@@ -111,7 +111,7 @@ export const NavLink = styled(Link)`
     display: table;
 
     &:hover {
-      color: #4b59f7;
+      color: #F50057;
       transition: all 0.3s ease;
     }
   }

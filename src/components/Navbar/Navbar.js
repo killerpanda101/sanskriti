@@ -39,6 +39,10 @@ const Navbar = () => {
               </NavItem>
 
               <NavItem>
+                <NavLink to="/mission">Our Mission</NavLink>
+              </NavItem>
+
+              <NavItem>
                 <NavLink to="/announcements">Announcements</NavLink>
               </NavItem>
 
