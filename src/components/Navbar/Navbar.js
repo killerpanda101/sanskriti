@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import {Button} from '../../globalStyles'
 import {
   Nav,
   NavbarContainer,
@@ -11,15 +10,12 @@ import {
   NavMenu,
   NavItem,
   NavLink,
-  NavItemBtn,
-  NavBtnLink
 } from "./Navbar.elements";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
 
   return (
     <>
