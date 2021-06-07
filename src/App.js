@@ -4,11 +4,13 @@ import GlobalStyle from "./globalStyles";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './pages/Home/Home';
 import Announcements from './pages/Announcements/Announcements';
+import ScroolToTop from "./components/ScroolToTop";
 
 function App() {
   return (
     <Router>
       <GlobalStyle/>
+      <ScroolToTop/>
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />

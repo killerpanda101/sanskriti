@@ -27,8 +27,19 @@ function InfoSection({
   img,
   alt,
   imgStart,
-  start
-}) {
+  start,
+  link,
+  btn
+}) { 
+
+  let customButton;
+  if(btn){
+    customButton = <Link to={link}><Button big fontBig primary={primary}>{buttonLabel}</Button></Link>
+  }
+  else{
+    customButton = false
+  }
+ 
   return (
     <>
       <InfoSec lightBg={lightBg}>
@@ -39,11 +50,7 @@ function InfoSection({
                 <Heading lightText={lightText}>{headline}</Heading>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to='/sign-up'>
-                  <Button big fontBig primary={primary}>
-                    {buttonLabel}
-                  </Button>
-                </Link>
+                {customButton}
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>

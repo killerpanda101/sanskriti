@@ -5,14 +5,16 @@ export const homeOjbOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  headline: "Sanskrit Club",
+  headline: "Sanskriti Club",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doDuis aute  cillum.",
-  buttonLabel: "Get to know us 👇",
+  buttonLabel: false,
   img: require("../../images/appreciation.svg").default,
   alt: "Their should be an image here",
   imgStart: '',
   start: '',
+  link: false,
+  btn: false
 };
 
 export const homeOjbTwo = {
@@ -29,6 +31,8 @@ export const homeOjbTwo = {
   alt: "Their should be an image here",
   imgStart: 'start',
   start: 'true',
+  link: '/mission',
+  btn: true
 };
 
 export const homeOjbThree = {
@@ -45,6 +49,8 @@ export const homeOjbThree = {
   alt: "Their should be an image here",
   imgStart: "",
   start: "",
+  link: '/announcements',
+  btn: true
 };
 
 export const homeOjbFour = {
@@ -61,6 +67,8 @@ export const homeOjbFour = {
   alt: "Their should be an image here",
   imgStart: "start",
   start: "true",
+  link: "/events",
+  btn: true
 };
 
 export const homeOjbFive = {
@@ -77,6 +85,8 @@ export const homeOjbFive = {
   alt: "Their should be an image here",
   imgStart: "",
   start: "",
+  link: "/team",
+  btn: true
 };
 
 export const homeOjbSix = {
@@ -93,4 +103,6 @@ export const homeOjbSix = {
   alt: "Their should be an image here",
   imgStart: "start",
   start: "true",
+  link: "/contact",
+  btn: true
   };

@@ -25,7 +25,7 @@ function Footer() {
             <SocialIcon />
             Sanskrit
           </SocialLogo>
-          <WebsiteRights>Sanskrit ©</WebsiteRights>
+          <WebsiteRights>Made with ❤️ by Sanskriti.</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
